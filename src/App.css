@@ -28,11 +28,27 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  margin: auto;
+  max-width: 1420px;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  padding-block: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+header a {
+  margin-inline: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
